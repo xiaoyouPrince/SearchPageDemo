@@ -15,6 +15,21 @@
 		B44053BB1DEB2F070033B146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44053B91DEB2F070033B146 /* LaunchScreen.storyboard */; };
 		B44053C61DEB2F070033B146 /* SearchPageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053C51DEB2F070033B146 /* SearchPageDemoTests.m */; };
 		B44053D11DEB2F070033B146 /* SearchPageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053D01DEB2F070033B146 /* SearchPageDemoUITests.m */; };
+		B44053E41DEB30880033B146 /* XYHomeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053E31DEB30880033B146 /* XYHomeSearchViewController.m */; };
+		B44053EC1DEB30D80033B146 /* XYHotSearches.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053E71DEB30D80033B146 /* XYHotSearches.m */; };
+		B44053ED1DEB30D80033B146 /* XYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053E91DEB30D80033B146 /* XYSearchBar.m */; };
+		B44053EE1DEB30D80033B146 /* XYSearchHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053EB1DEB30D80033B146 /* XYSearchHistoryView.m */; };
+		B44053FE1DEB32260033B146 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053F21DEB32260033B146 /* FMDatabase.m */; };
+		B44053FF1DEB32260033B146 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053F41DEB32260033B146 /* FMDatabaseAdditions.m */; };
+		B44054001DEB32260033B146 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053F61DEB32260033B146 /* FMDatabasePool.m */; };
+		B44054011DEB32260033B146 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053F81DEB32260033B146 /* FMDatabaseQueue.m */; };
+		B44054021DEB32260033B146 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053FB1DEB32260033B146 /* FMResultSet.m */; };
+		B44054031DEB32260033B146 /* XYSearchCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B44053FD1DEB32260033B146 /* XYSearchCache.m */; };
+		B44054061DEB32670033B146 /* XYSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44054051DEB32670033B146 /* XYSearchModel.m */; };
+		B440540A1DEB32780033B146 /* XYNewHomePageSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B44054081DEB32780033B146 /* XYNewHomePageSearchResultCell.m */; };
+		B440540B1DEB32780033B146 /* XYNewHomePageSearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44054091DEB32780033B146 /* XYNewHomePageSearchResultCell.xib */; };
+		B440540E1DEB35270033B146 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B440540D1DEB35270033B146 /* libsqlite3.tbd */; };
+		B44054111DEB366C0033B146 /* searchbar_textfield_search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B44054101DEB366C0033B146 /* searchbar_textfield_search_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,35 @@
 		B44053CC1DEB2F070033B146 /* SearchPageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchPageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44053D01DEB2F070033B146 /* SearchPageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchPageDemoUITests.m; sourceTree = "<group>"; };
 		B44053D21DEB2F070033B146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44053E21DEB30880033B146 /* XYHomeSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHomeSearchViewController.h; sourceTree = "<group>"; };
+		B44053E31DEB30880033B146 /* XYHomeSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHomeSearchViewController.m; sourceTree = "<group>"; };
+		B44053E61DEB30D80033B146 /* XYHotSearches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHotSearches.h; sourceTree = "<group>"; };
+		B44053E71DEB30D80033B146 /* XYHotSearches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHotSearches.m; sourceTree = "<group>"; };
+		B44053E81DEB30D80033B146 /* XYSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSearchBar.h; sourceTree = "<group>"; };
+		B44053E91DEB30D80033B146 /* XYSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSearchBar.m; sourceTree = "<group>"; };
+		B44053EA1DEB30D80033B146 /* XYSearchHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSearchHistoryView.h; sourceTree = "<group>"; };
+		B44053EB1DEB30D80033B146 /* XYSearchHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSearchHistoryView.m; sourceTree = "<group>"; };
+		B44053F11DEB32260033B146 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B44053F21DEB32260033B146 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B44053F31DEB32260033B146 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B44053F41DEB32260033B146 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B44053F51DEB32260033B146 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B44053F61DEB32260033B146 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B44053F71DEB32260033B146 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B44053F81DEB32260033B146 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B44053F91DEB32260033B146 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B44053FA1DEB32260033B146 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B44053FB1DEB32260033B146 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B44053FC1DEB32260033B146 /* XYSearchCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSearchCache.h; sourceTree = "<group>"; };
+		B44053FD1DEB32260033B146 /* XYSearchCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSearchCache.m; sourceTree = "<group>"; };
+		B44054041DEB32670033B146 /* XYSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSearchModel.h; sourceTree = "<group>"; };
+		B44054051DEB32670033B146 /* XYSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSearchModel.m; sourceTree = "<group>"; };
+		B44054071DEB32780033B146 /* XYNewHomePageSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNewHomePageSearchResultCell.h; sourceTree = "<group>"; };
+		B44054081DEB32780033B146 /* XYNewHomePageSearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNewHomePageSearchResultCell.m; sourceTree = "<group>"; };
+		B44054091DEB32780033B146 /* XYNewHomePageSearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYNewHomePageSearchResultCell.xib; sourceTree = "<group>"; };
+		B440540D1DEB35270033B146 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B44054101DEB366C0033B146 /* searchbar_textfield_search_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchbar_textfield_search_icon@2x.png"; sourceTree = "<group>"; };
+		B44054121DEB3C620033B146 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B440540E1DEB35270033B146 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +130,7 @@
 				B44053C41DEB2F070033B146 /* SearchPageDemoTests */,
 				B44053CF1DEB2F070033B146 /* SearchPageDemoUITests */,
 				B44053A91DEB2F070033B146 /* Products */,
+				B440540C1DEB35270033B146 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +147,7 @@
 		B44053AA1DEB2F070033B146 /* SearchPageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B44053DE1DEB30450033B146 /* SearchPageDemo */,
 				B44053AE1DEB2F070033B146 /* AppDelegate.h */,
 				B44053AF1DEB2F070033B146 /* AppDelegate.m */,
 				B44053B11DEB2F070033B146 /* ViewController.h */,
@@ -110,6 +157,7 @@
 				B44053B91DEB2F070033B146 /* LaunchScreen.storyboard */,
 				B44053BC1DEB2F070033B146 /* Info.plist */,
 				B44053AB1DEB2F070033B146 /* Supporting Files */,
+				B44054121DEB3C620033B146 /* PrefixHeader.pch */,
 			);
 			path = SearchPageDemo;
 			sourceTree = "<group>";
@@ -138,6 +186,80 @@
 				B44053D21DEB2F070033B146 /* Info.plist */,
 			);
 			path = SearchPageDemoUITests;
+			sourceTree = "<group>";
+		};
+		B44053DE1DEB30450033B146 /* SearchPageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B44053E21DEB30880033B146 /* XYHomeSearchViewController.h */,
+				B44053E31DEB30880033B146 /* XYHomeSearchViewController.m */,
+				B44054041DEB32670033B146 /* XYSearchModel.h */,
+				B44054051DEB32670033B146 /* XYSearchModel.m */,
+				B44054071DEB32780033B146 /* XYNewHomePageSearchResultCell.h */,
+				B44054081DEB32780033B146 /* XYNewHomePageSearchResultCell.m */,
+				B44054091DEB32780033B146 /* XYNewHomePageSearchResultCell.xib */,
+				B440540F1DEB366C0033B146 /* Images */,
+				B44053EF1DEB32260033B146 /* DataManager */,
+				B44053E51DEB30D80033B146 /* CustomeViews */,
+			);
+			path = SearchPageDemo;
+			sourceTree = "<group>";
+		};
+		B44053E51DEB30D80033B146 /* CustomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				B44053E61DEB30D80033B146 /* XYHotSearches.h */,
+				B44053E71DEB30D80033B146 /* XYHotSearches.m */,
+				B44053E81DEB30D80033B146 /* XYSearchBar.h */,
+				B44053E91DEB30D80033B146 /* XYSearchBar.m */,
+				B44053EA1DEB30D80033B146 /* XYSearchHistoryView.h */,
+				B44053EB1DEB30D80033B146 /* XYSearchHistoryView.m */,
+			);
+			path = CustomeViews;
+			sourceTree = "<group>";
+		};
+		B44053EF1DEB32260033B146 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				B44053F01DEB32260033B146 /* FMDB */,
+				B44053FC1DEB32260033B146 /* XYSearchCache.h */,
+				B44053FD1DEB32260033B146 /* XYSearchCache.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		B44053F01DEB32260033B146 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				B44053F11DEB32260033B146 /* FMDatabase.h */,
+				B44053F21DEB32260033B146 /* FMDatabase.m */,
+				B44053F31DEB32260033B146 /* FMDatabaseAdditions.h */,
+				B44053F41DEB32260033B146 /* FMDatabaseAdditions.m */,
+				B44053F51DEB32260033B146 /* FMDatabasePool.h */,
+				B44053F61DEB32260033B146 /* FMDatabasePool.m */,
+				B44053F71DEB32260033B146 /* FMDatabaseQueue.h */,
+				B44053F81DEB32260033B146 /* FMDatabaseQueue.m */,
+				B44053F91DEB32260033B146 /* FMDB.h */,
+				B44053FA1DEB32260033B146 /* FMResultSet.h */,
+				B44053FB1DEB32260033B146 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		B440540C1DEB35270033B146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B440540D1DEB35270033B146 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B440540F1DEB366C0033B146 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B44054101DEB366C0033B146 /* searchbar_textfield_search_icon@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +369,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44053BB1DEB2F070033B146 /* LaunchScreen.storyboard in Resources */,
+				B44054111DEB366C0033B146 /* searchbar_textfield_search_icon@2x.png in Resources */,
+				B440540B1DEB32780033B146 /* XYNewHomePageSearchResultCell.xib in Resources */,
 				B44053B81DEB2F070033B146 /* Assets.xcassets in Resources */,
 				B44053B61DEB2F070033B146 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +397,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B440540A1DEB32780033B146 /* XYNewHomePageSearchResultCell.m in Sources */,
+				B44053ED1DEB30D80033B146 /* XYSearchBar.m in Sources */,
+				B44054061DEB32670033B146 /* XYSearchModel.m in Sources */,
+				B44053EE1DEB30D80033B146 /* XYSearchHistoryView.m in Sources */,
 				B44053B31DEB2F070033B146 /* ViewController.m in Sources */,
+				B44053E41DEB30880033B146 /* XYHomeSearchViewController.m in Sources */,
 				B44053B01DEB2F070033B146 /* AppDelegate.m in Sources */,
+				B44053FF1DEB32260033B146 /* FMDatabaseAdditions.m in Sources */,
+				B44054021DEB32260033B146 /* FMResultSet.m in Sources */,
+				B44053EC1DEB30D80033B146 /* XYHotSearches.m in Sources */,
+				B44054001DEB32260033B146 /* FMDatabasePool.m in Sources */,
+				B44054011DEB32260033B146 /* FMDatabaseQueue.m in Sources */,
 				B44053AD1DEB2F070033B146 /* main.m in Sources */,
+				B44054031DEB32260033B146 /* XYSearchCache.m in Sources */,
+				B44053FE1DEB32260033B146 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +560,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				COPY_HEADERS_UNIFDEF_FLAGS = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/quxiaoyou/Desktop/SearchPageDemo/SearchPageDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SearchPageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.pb.SearchPageDemo;
@@ -435,6 +576,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				COPY_HEADERS_UNIFDEF_FLAGS = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/quxiaoyou/Desktop/SearchPageDemo/SearchPageDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SearchPageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.pb.SearchPageDemo;
