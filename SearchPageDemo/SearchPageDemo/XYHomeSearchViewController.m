@@ -291,9 +291,6 @@
 }
 
 
-
-
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     XYNewHomePageSearchResultCell *cell = [XYNewHomePageSearchResultCell cellWithTableView:tableView];
