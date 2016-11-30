@@ -87,7 +87,7 @@ model中共有5种子分类（即最多有5组数据），从排列组合上来�
 从刚才的分析中可以简单画图了解下排列的可能性
 
 <!--![GitHub set up](https://help.github.com/assets/images/site/set-up-git.gif)-->
-![searchResoult](media/14804391136734/searchResoult.png)
+![Demo searchResoult](searchResoult.png)
 
 Model:需要根据内部五个成员属性来相对应判空，最后返回正确的组数
 List：需要根据具体的组，来判断对应组中有多少行，返回对应的行数
