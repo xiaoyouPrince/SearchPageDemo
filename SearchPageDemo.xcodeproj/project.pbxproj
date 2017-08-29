@@ -564,7 +564,7 @@
 				COPY_HEADERS_UNIFDEF_FLAGS = "";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/quxiaoyou/Desktop/SearchPageDemo/SearchPageDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SearchPageDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SearchPageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.pb.SearchPageDemo;
@@ -580,7 +580,7 @@
 				COPY_HEADERS_UNIFDEF_FLAGS = "";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/quxiaoyou/Desktop/SearchPageDemo/SearchPageDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SearchPageDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SearchPageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.pb.SearchPageDemo;
@@ -653,6 +653,7 @@
 				B44053D71DEB2F070033B146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44053D81DEB2F070033B146 /* Build configuration list for PBXNativeTarget "SearchPageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -661,6 +662,7 @@
 				B44053DA1DEB2F070033B146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44053DB1DEB2F070033B146 /* Build configuration list for PBXNativeTarget "SearchPageDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -669,6 +671,7 @@
 				B44053DD1DEB2F070033B146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
