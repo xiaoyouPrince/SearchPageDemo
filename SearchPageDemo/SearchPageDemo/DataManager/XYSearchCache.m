@@ -126,7 +126,55 @@
         
         [dataArr addObject:[set stringForColumn:@"title"]];
     }
+    
+    return [self reversArray:dataArr];
+    
     return dataArr;
+}
+
+/**
+ 倒序排列数组
+ */
+- (NSMutableArray *)reversArray:(NSArray *)array
+{
+//    NSEnumerator *enumerator = [array reverseObjectEnumerator];
+//    NSMutableArray *arrayM = [NSMutableArray array];
+//    for (NSString * title in [enumerator allObjects]) {
+//        [arrayM addObject:title];
+//    }
+//    return arrayM;
+    
+    
+    
+    NSMutableArray *arrayM = [NSMutableArray array];
+    for (id obj in array) {
+        [arrayM addObject:obj];
+    }
+    
+    if (arrayM.count < 2) {
+        return arrayM;
+    }
+    
+    NSUInteger midNum = 0;
+    if (arrayM.count % 2 == 0) {
+        // 偶数组
+        midNum = arrayM.count / 2;
+    }else
+    {
+        // 奇数组
+        midNum = arrayM.count / 2 + 1;
+    }
+    
+    for (int i = 0; i < midNum ; i++) {
+        
+        id obj = arrayM[i];
+        id obj2 = arrayM[arrayM.count - i - 1];
+        id temp = obj2;
+        
+        [arrayM replaceObjectAtIndex:arrayM.count - i - 1 withObject:obj];
+        [arrayM replaceObjectAtIndex:i withObject:temp];
+    }
+    return arrayM;
 }
 
 @end
